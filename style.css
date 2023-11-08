@@ -15,6 +15,7 @@ nav{
 }
 .logo img{
     vertical-align: middle;
+    width: 100px;
 }
 .search{
     background-color: #fafafa;
@@ -36,11 +37,9 @@ nav{
     color: #252525;
     vertical-align: middle;
 }
-/* .nav-links i{
-    transform: scale(1.6);
-    color: #252525;
-    vertical-align: middle;
-} */
+.nav-links a .message{
+    transform: rotate(-40deg);
+}
 .container{
     padding: 0 15%
 }
